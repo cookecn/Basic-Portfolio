@@ -1,13 +1,17 @@
 .head {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-right: 940px;
-    display: block;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 25px;
 }
 
 header {
     background-color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;
 }
 
 ul {
@@ -49,12 +53,28 @@ li a:hover {
     margin-right: auto;
     margin-bottom: 50px;
     overflow: auto;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
-/*how do I make the contact info boxes fill, and grow larger for specific boxes?*/
+
 .contactinfo {
     float: left;
+    width: 90%;
+    padding: 6px;
+}
+
+/*making the box larger for contact.html text boxes*/
+input[type=text] {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box; 
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px 0;
+    box-sizing: border-box; 
 }
 
 .images {
@@ -112,6 +132,10 @@ li a:hover {
     width: 200px;
     height: 50px;
     text-align: center;
+}
+
+.indexpage {
+    float: left;
 }
 
 .footer {
