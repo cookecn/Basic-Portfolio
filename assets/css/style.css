@@ -162,3 +162,38 @@ h3 {
     border-top: 8px solid #4aaaa5;
     text-align: center;
 }
+
+@media screen and (max-width: 980px) {
+    .container {
+        float: left;
+        width: 75%;
+        margin-left: 10px;
+    }
+    .headercontent {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .head {
+       font-size: 30px; 
+    }
+
+    img {
+
+    }
+    .images {
+
+    }
+    .container {
+        margin-left: 75px;
+        width: 75%;
+    }
+    .contactinfo {
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+}
